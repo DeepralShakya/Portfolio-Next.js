@@ -22,11 +22,10 @@ export interface IProject{
     name: string,
     description: string,
     image: string,
-    deployed_url: string,
     github_url: string,
     category: Category[],
-    key:string[]
+    key_value:string[]
 }
 
-export type Category = "react" | "Nextjs" | "python" | "PHP & MySQL";
+export type Category = "React" | "Nextjs" | "Python" | "PHP & MySQL" | "Android Development";
 
