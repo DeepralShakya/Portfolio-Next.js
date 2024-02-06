@@ -23,7 +23,7 @@ const ProjectCard:FunctionComponent<{project:IProject}> = ({project:{name, image
 
             <div>
                 <h1 className='m-2 text-xl font-bold text-center'>{name}</h1>
-                <h2 className='p-1 mr-2 text-justify'>{description}</h2>
+                <h2 className='p-1 mr-4 text-justify'>{description}</h2>
                 <div className='flex flex-wrap mt-2 tracking-wider'>
                     {
                         key_value.map((value)=>(<span key={value} className='p-1 m-2 text-white bg-black rounded'>{value}</span>))
