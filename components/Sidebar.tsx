@@ -20,7 +20,7 @@ const Sidebar = () => {
       </div>
 
       {/* address */}
-      <div className='py-6 my-1'>
+      <div className='py-6 my-1 mt-8'>
         <div className='flex items-center justify-center'>
             <CiLocationOn />
             <span>Imadol, Lalitpur</span>
