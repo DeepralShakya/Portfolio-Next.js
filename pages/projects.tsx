@@ -8,6 +8,7 @@ const Projects = () => {
 
   const[categoryFilter, setCategoryFilter] = useState(projects)
   const[active, setActive] = useState('All')
+  const[details, setDetails] = useState<number|null>(null)
 
   const handlerFilterCategory = (category: Category |  'All') =>{
     if(category === 'All'){
@@ -28,7 +29,7 @@ const Projects = () => {
       {
         categoryFilter.map((project)=>(
           <div className='col-span-12 p-2 sm:col-span-6 lg:col-span-4'>
-            <ProjectCard project={project} key={project.name}/>
+            <ProjectCard project={project} key={project.name} details={details} setDetails={setDetails}/>
           </div>
         ))
       }

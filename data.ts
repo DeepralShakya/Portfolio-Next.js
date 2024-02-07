@@ -24,12 +24,12 @@ export const languages:ISkill[] = [
     },
     {
         name:"HTML/CSS",
-        level: "70%",
+        level: "80%",
         Icon: BsCircleFill,
     },
     {
         name:"NextJs",
-        level: "50%",
+        level: "60%",
         Icon: BsCircleFill,
     },
     {
@@ -64,6 +64,7 @@ export const tools:ITool[] = [
 
 export const projects:IProject[] = [
     {
+        id: 1,
         name: "News-App",
         description: "A simple and responsive React-based news application that allows users to stay informed on current events. The app fetches real-time news data and categorizes it based on different topics. Features include a clean user interface and a seamless reading experience. Built with React, React Router, and integrated with a news API.",
         image: "/images/newsApp.png",
@@ -72,6 +73,7 @@ export const projects:IProject[] = [
         key_value:["react", "Bootstrap"]
     },
     {
+        id: 2,
         name: "Weather-App",
         description: "This Weather App is a user-friendly and informative application that provides real-time weather updates and forecasts for any location worldwide. It allow users to quickly access accurate weather data such as temperature, humidity, wind speed, and more.",
         image: "/images/weatherApp.jpg",
@@ -80,6 +82,7 @@ export const projects:IProject[] = [
         key_value:["java", "Android"]
     },
     {
+        id: 3,
         name: "Sudoku Solver",
         description: "This Python project is a Sudoku solver that employs efficient algorithms to solve Sudoku puzzles of varying difficulties. It provides a user-friendly interface for inputting Sudoku puzzles, and the solver uses a backtracking algorithm to find the solution.",
         image: "/images/sudokuSolver.png",
@@ -88,6 +91,7 @@ export const projects:IProject[] = [
         key_value:["python"]
     },
     {
+        id: 4,
         name: "Mobile-Shopping-E-commerce-Website",
         description: "MobileKhajana is a full-stack e-commerce website designed to offer a seamless mobile shopping experience for customers. This GitHub project provides both the frontend and backend components necessary to create an online platform for buying and selling mobile devices, accessories, and related products.",
         image: "/images/mobileKhajana.png",
@@ -96,6 +100,7 @@ export const projects:IProject[] = [
         key_value:["PHP", "MySQL"]
     },
     {
+        id: 5,
         name: "BMI Calculator",
         description: "Efficient BMI calculator developed with React, providing a user-friendly interface to quickly compute Body Mass Index.",
         image: "/images/bmiCalculator.png",
@@ -104,6 +109,7 @@ export const projects:IProject[] = [
         key_value:["react"]
     },
     {
+        id: 6,
         name: "Hangman-Game",
         description: "Hangman game created with react/typescript.",
         image: "/images/hangman.png",

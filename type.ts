@@ -19,6 +19,7 @@ export interface ITool{
 }
 
 export interface IProject{
+    id: number,
     name: string,
     description: string,
     image: string,
