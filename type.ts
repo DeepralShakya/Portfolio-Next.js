@@ -28,5 +28,5 @@ export interface IProject{
     key_value:string[]
 }
 
-export type Category = "React" | "Nextjs" | "Python" | "PHP & MySQL" | "Android Development";
+export type Category = "React" | "Nextjs" | "Python" | "PHP & MySQL" | "Android Development" | "NextJs";
 

@@ -92,7 +92,7 @@ export const projects:IProject[] = [
     },
     {
         id: 4,
-        name: "Mobile-Shopping-E-commerce-Website",
+        name: "Mobile-Shopping-Ecommerce Website",
         description: "MobileKhajana is a full-stack e-commerce website designed to offer a seamless mobile shopping experience for customers. This GitHub project provides both the frontend and backend components necessary to create an online platform for buying and selling mobile devices, accessories, and related products.",
         image: "/images/mobileKhajana.png",
         github_url: "https://github.com/DeepralShakya/MobileKhajana---Mobile-Shopping-E-commerce-Website",
@@ -116,5 +116,23 @@ export const projects:IProject[] = [
         github_url: "https://github.com/DeepralShakya/hangman-react-typescript",
         category: ["React"],
         key_value:["react", "typescript"]
+    },
+    {
+        id: 7,
+        name: "DigitalMarketplace",
+        description: "Ecommerce platform using by Next.js, TypeScript, React, Tailwind CSS, and tRPC. Modern design with robust functionality for an unparalleled online shopping experience.",
+        image: "/images/virtuaShopee.png",
+        github_url: "https://github.com/DeepralShakya/Ecommerce-DigitalMarketplace",
+        category: ["NextJs"],
+        key_value:["NextJs", "typescript", "Tailwindcss"]
+    },
+    {
+        id: 8,
+        name: "Shopping-site",
+        description: "Responsive shopping website using nextjs, typescript and tailwindcss.",
+        image: "/images/shopping-site.png",
+        github_url: "https://github.com/DeepralShakya/shopping-site",
+        category: ["NextJs"],
+        key_value:["NextJs", "typescript", "Tailwindcss"]
     },
 ]

@@ -23,6 +23,7 @@ const ProjectsNavbar:FunctionComponent<{handlerFilterCategory:Function, active:s
       <NavItem value='PHP & MySQL' {...props}/>
       <NavItem value='Python' {...props}/>
       <NavItem value='Android Development' {...props}/>
+      <NavItem value='NextJs' {...props}/>
     </div>
   )
 }
