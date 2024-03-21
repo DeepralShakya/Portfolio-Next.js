@@ -29,7 +29,7 @@ export const languages:ISkill[] = [
     },
     {
         name:"NextJs",
-        level: "60%",
+        level: "80%",
         Icon: BsCircleFill,
     },
     {
