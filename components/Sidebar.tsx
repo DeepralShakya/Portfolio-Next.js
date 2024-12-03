@@ -27,7 +27,7 @@ const Sidebar = () => {
             <CiLocationOn />
             <span>Imadol, Lalitpur</span>
         </div>
-        <p className='flex items-center justify-center my-1'><MdEmail />shakyadeepral44@gmal.com</p>
+        <p className='flex items-center justify-center my-1'><MdEmail />shakyadeepral44@gmail.com</p>
         <p>9810112522</p>
       </div>
     </div>

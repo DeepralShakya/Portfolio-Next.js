@@ -19,7 +19,7 @@ export const services:IService[] = [
 export const languages:ISkill[] = [
     {
         name:"React",
-        level: "70%",
+        level: "80%",
         Icon: BsCircleFill,
     },
     {
@@ -134,5 +134,14 @@ export const projects:IProject[] = [
         github_url: "https://github.com/DeepralShakya/shopping-site",
         category: ["NextJs"],
         key_value:["NextJs", "typescript", "Tailwindcss"]
+    },
+    {
+        id: 9,
+        name: "Lalitpur House Price Prediction",
+        description: "Predicts the price of house of Lalitpur using Linear regression and k-means Clustering algorithm.",
+        image: "/images/housePricePrediction.png",
+        github_url: "https://github.com/DeepralShakya/lalitpur-house-price-prediction-python",
+        category: ["NextJs", "Python"],
+        key_value:["NextJs", "Tailwindcss", "Python"]
     },
 ]

@@ -19,7 +19,7 @@ const resume = () => {
         <div>
           <h1 className='p-2 text-2xl font-bold'>Experience</h1>
           <div className='p-2'>
-            <h2>Internship</h2>
+            <h2>Internship in frontend (Next.js)</h2>
           </div>
         </div>
       </div>
