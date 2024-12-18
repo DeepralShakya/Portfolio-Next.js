@@ -10,8 +10,8 @@ const resume = () => {
         <div>
           <h1 className='p-2 text-2xl font-bold'>Education</h1>
           <div className='p-2'>
-            <h2>BCA</h2>
-            <p>Currently running BCA from D.A.V College</p>
+            
+            <p>Completed a Bachelor of Computer Applications (BCA) from D.A.V College</p>
           </div>
         </div>  
 
@@ -19,7 +19,7 @@ const resume = () => {
         <div>
           <h1 className='p-2 text-2xl font-bold'>Experience</h1>
           <div className='p-2'>
-            <h2>Internship in frontend (Next.js)</h2>
+            <h2>Internship in frontend (Next.js & Tailwind CSS)</h2>
           </div>
         </div>
       </div>

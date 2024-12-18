@@ -7,7 +7,7 @@ const Bar:FunctionComponent<{
   return (
     <div className='my-2 text-white rounded-full bg-cyan-700'>
       <div className='flex items-center px-2 py-1 rounded-full bg-gradient-to-r from-orange-600 to-orange-100' style={{width:level}}>
-        <Icon className='m-2'/>
+        <Icon className='m-1'/>
         {name}
       </div>
     </div>

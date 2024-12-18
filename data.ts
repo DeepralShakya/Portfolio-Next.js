@@ -18,8 +18,13 @@ export const services:IService[] = [
 
 export const languages:ISkill[] = [
     {
-        name:"React",
+        name:"NextJs",
         level: "80%",
+        Icon: BsCircleFill,
+    },
+    {
+        name:"React",
+        level: "70%",
         Icon: BsCircleFill,
     },
     {
@@ -28,7 +33,7 @@ export const languages:ISkill[] = [
         Icon: BsCircleFill,
     },
     {
-        name:"NextJs",
+        name:"Tailwind CSS",
         level: "80%",
         Icon: BsCircleFill,
     },
